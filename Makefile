@@ -1,4 +1,4 @@
-# Copyright 2010-2024 Mitchell. See LICENSE.
+# Copyright 2010-2025 Mitchell. See LICENSE.
 
 CFLAGS := -Os
 CXXFLAGS := -Os -std=c++17
