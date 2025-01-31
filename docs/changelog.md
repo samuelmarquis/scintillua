@@ -2,6 +2,28 @@
 
 [Atom Feed](https://github.com/orbitalquark/scintillua/releases.atom)
 
+### 6.4 (31 Jan 2025)
+
+Download:
+
+* [Scintillua 6.4][]
+
+Bugfixes:
+
+* Initialize fold constants when Scintillua is used as a standalone library.
+* Fixed performance issues of the text lexer.
+* Fixed LPeg stack size issues in complex grammars.
+* Output lexer matches absolute program paths instead of just names.
+* Fixed errors with folding in reST lexer.
+
+Changes:
+
+* Updated Hare, C, asm, and Makefile lexers with small improvements.
+* Renamed 'ansi_c', 'dmd', and 'rstats' lexers to 'c', 'd', and 'r', respectively.
+* Added Factor and Nix lexers.
+
+[Scintillua 6.4]: https://github.com/orbitalquark/scintillua/releases/download/scintillua_6.4/scintillua_6.4.zip
+
 ### 6.3 (29 Apr 2024)
 
 Download:
